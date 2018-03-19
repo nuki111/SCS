@@ -2,6 +2,7 @@
 # R may need to be installed if it is not already.
 # For the visual display mentioned in my PDF file, see the commenting in the "greedySCS"
 # funtion below.
+# added line of comment
 
 # String Set 1
 
@@ -59,6 +60,8 @@ S2[20] = "gf";
 
 
 # find_overlap finds the londest common suffix of sub_F that is a prefix of sub_B
+
+
 
 find_overlap <- function(sub_F, sub_B, is_num)
 {
@@ -266,6 +269,7 @@ GSCS <- function(string_set, ref)
 	#print(paste("# orders tested =", iter))
 	return (Sstar) 
 }
+
 
 SuperString1 = GSCS(S1, 25)
 
